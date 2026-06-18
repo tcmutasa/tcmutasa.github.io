@@ -1,1 +1,60 @@
-<h1>Portfolio</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Engineering Dispatch — engineering insights, technical analysis and long-form writing by Tawanda Mutasa.">
+  <title>The Engineering Dispatch</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">The Engineering Dispatch</a>
+      <button class="menu-button" type="button" aria-controls="primary-nav" aria-expanded="false">MENU</button>
+      <nav class="nav" id="primary-nav" aria-label="Primary navigation">
+        <a class="active" href="index.html">HOME</a>
+        <a href="writing.html">WRITING</a>
+        <a href="about.html">ABOUT</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy-block">
+          <p class="eyebrow">TAWANDAMUTASA.COM</p>
+          <h1>Engineering<br>insights.<span class="accent">No fluff.<span class="cursor" aria-hidden="true"></span></span></h1>
+          <p class="hero-copy">I'm Tawanda — an engineer writing about systems, optimisation, technology, and the craft of building things that do not break at 3am.</p>
+          <a class="latest-link" href="writing.html">LATEST POSTS <span aria-hidden="true">↓</span></a>
+        </div>
+
+        <aside class="code-card" aria-label="Decorative code example">
+          <div class="code-titlebar"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span><span>latency.ts</span></div>
+<pre><code><span class="kw">async function</span> <span class="fn">analyzeLatency</span>(req: Request) {
+  <span class="cm">// measure what actually matters</span>
+  <span class="kw">const</span> start = performance.now();
+  <span class="kw">const</span> result = <span class="kw">await</span> db.query(req.params);
+  <span class="kw">const</span> elapsed = performance.now() - start;
+  <span class="kw">if</span> (elapsed &gt; <span class="num">1000</span>) {
+    log.warn(<span class="str">`slow query: ${elapsed}ms`</span>);
+  }
+  <span class="kw">return</span> result;
+}</code></pre>
+        </aside>
+      </div>
+    </section>
+
+    <section class="home-posts">
+      <div class="container">
+        <div class="section-rule"><span class="label">&gt; LATEST WRITING</span><span class="line"></span><a class="count" href="writing.html">VIEW ALL</a></div>
+        <div id="latestPosts" class="latest-post-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><span>© <span data-year></span> Tawanda Mutasa</span><a href="about.html">About this site</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
