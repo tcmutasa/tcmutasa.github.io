@@ -26,7 +26,6 @@ const posts=[
 <p>The story was never as simple as a generous relative paying for everything while I casually benefited. I was studying full-time, working hard academically and performing unpaid labour in a difficult and often hostile home environment.</p>
 <h2>Life inside the household</h2>
 <p>My experience in the home was painful.</p>
-<p>There were occasions when I returned from university and found no food available to me. My cousins sometimes received money from their father and could purchase their own food. My aunt could eat while at work. I did not always have those options, and on several occasions I attended university hungry.</p>
 <p>I contacted my mother and brother for help. I pursued scholarships. I worked harder academically because I understood that I needed a way to become independent and finish my degree.</p>
 <p>In 2010, during the Saskatchewan winter, I was locked out of the house by my cousins. I contacted the police because I had nowhere safe to go in severe sub-zero weather. Officers attended quickly and allowed me to collect my belongings. I left with most of my life packed into a single suitcase.</p>
 <p>Friends helped me with accommodation, and I received assistance from the University of Saskatchewan that helped me complete my degree.</p>
